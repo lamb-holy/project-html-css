@@ -1,0 +1,58 @@
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    max-height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: baseline;
+}
+
+.logo {
+    width: 130px;
+    height: 33px;
+    margin-right: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_list, .list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header_list {
+    margin-right: 200px;
+}
+
+.header_list .list-item:nth-child(2)::after {
+    content: url("../src/images/down-point.png");
+    margin-left: 8px;
+}
+
+.list {
+    align-items: baseline;
+    margin-top: -7px;
+}
+
+.link {
+    font-size: 13px;
+    color: var(--graytext);
+}
+
+.sign-up-btn {
+    border: solid 0px;
+    background-color: var(--orange);
+    border-radius: 8px;
+    width: 105px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 6%;
+    color: white;
+}
