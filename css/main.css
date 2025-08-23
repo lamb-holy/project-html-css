@@ -3,7 +3,6 @@
 .first-s_container {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
     height: 570px;
     margin-left: 90px;
     margin-top: 80px;
