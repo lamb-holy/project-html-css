@@ -41,7 +41,7 @@
     width: 497px;
     height: 60px;
     background-color: var(--lighterBlue);
-    border: 1.5px solid var(--border);
+    border: 1.5px solid var(--cardLighterBlue);
     border-radius: 15px;
     margin-top: 30px;
 }
@@ -92,8 +92,9 @@
 .first-s_container {
     background-image: url("../src/images/Illustration.webp");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
 }
+
 
 
 /* second section */
@@ -248,6 +249,8 @@
     border-radius: 6px;
 }
 
+
+
 /* third section */
 
 .third-s_box {
@@ -280,6 +283,8 @@
     margin-top: 60px;
     gap: 100px;
 }
+
+
 
 /* fourth section */
 
@@ -399,6 +404,8 @@ section:nth-child(4) {
     padding: 10px 35px;
 }
 
+
+
 /* fifth section */
 
 section:nth-child(5) {
@@ -468,6 +475,8 @@ section:nth-child(5) {
     font-weight: 400;
     font-size: 14px
 }
+
+
 
 /* sixth section */
 
