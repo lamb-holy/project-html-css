@@ -189,7 +189,7 @@
     padding: 6px 8px 2px 8px;
     margin-top: -8px;
     margin-left: -9px;
-    margin-right: -9px;
+    margin-right: -10px;
     background-color: var(--lighterBlue);
     border: 1px solid var(--lighterBlue);
     border-radius: 8px;
@@ -292,9 +292,8 @@ section:nth-child(3) {
 
 section:nth-child(4) {
     display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    justify-content: center;
+    margin: 60px 10px 100px 40px;
 }
 
 .fourth_container {
@@ -302,16 +301,12 @@ section:nth-child(4) {
     justify-content: center;
 }
 
-.left-side {
-    margin-left: 80px;
-    width: 580px;
-}
-
 .left-side > .title {
     color: var(--whiteText);
     font-weight: 500;
     font-size: 48px;
     line-height: 130%;
+    width: 427px;
 }
 
 .left-side > .title-text {
@@ -343,10 +338,10 @@ section:nth-child(4) {
 }
 
 .second_tools_list-item {
-    max-width: 284px;
+    width: 284px;
     height: 288px;
     padding: 10px;
-    flex-basis: calc((100% - 50px) / 2)
+    flex-basis: calc((100% - 300px) / 2)
 }
 
 .second_tool-card {
@@ -366,6 +361,7 @@ section:nth-child(4) {
     color: var(--graytext);
     line-height: 30px;
     margin-top: 35px;
+    width: 245px;
 }
 
 .second_icons-list {
@@ -376,12 +372,15 @@ section:nth-child(4) {
 }
 
 .second_visit-btn {
-    margin-top: -25px;
-    margin-left: 160px;
     font-size: 16px;
     font-weight: 400;
     color: var(--graytext);
     border: 0px;
+    margin-left: 60px;
+}
+
+.visit-btn_wrapper {
+    margin-top: 5px;
 }
 
 .second_tools_list-item:hover {
@@ -399,7 +398,7 @@ section:nth-child(4) {
 
 .second_visit-btn:hover {
     margin-top: -36px;
-    margin-left: 124px;
+    margin-left: 24px;
     font-size: 16px;
     font-weight: 400;
     color: white;
